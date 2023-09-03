@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .base-flex{
+        @apply flex items-center gap-4 p-4 relative text-xl;
+    }
+
+   .transition{
+     @apply transition-all duration-1000;
+   }
+   .button-check{
+      @apply flex items-center justify-center relative w-8 h-8 rounded-[50%] transition-all duration-500 border border-gray-500;
+   }
+}
